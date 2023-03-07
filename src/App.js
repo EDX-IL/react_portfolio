@@ -5,14 +5,22 @@ import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
-function App() {
+
+const styles = {
+  header: {
+    background: "#c1d8e0"
+  },
+
+}
+
+function    App() {
   return (
     
 
     <Router>
 
 
-      <div>
+      <div style={styles.header}>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="react_portfolio">

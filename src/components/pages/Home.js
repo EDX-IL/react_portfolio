@@ -1,9 +1,17 @@
 import React from "react";
 import avatar from "../images/cool-prog.jpg"
 
+
+const styles = {
+  home: {
+    background: "#e4f0f5"
+  },
+
+}
+
 function Home() {
   return (
-    <div>
+    <div style={styles.home}>
       <h1>Welcome to Ian Logendra's Portfolio Page</h1>
       <p>
         This is my Home Page - where Excellence built in.
