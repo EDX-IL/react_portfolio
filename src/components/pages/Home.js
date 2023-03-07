@@ -12,7 +12,7 @@ const styles = {
 function Home() {
   return (
     <div style={styles.home}>
-      <h1>Welcome to Ian Logendra's Portfolio Page</h1>
+      <h2>Welcome to Ian Logendra's Portfolio Page</h2>
       <p>
         This is my Home Page - where Excellence built in.
       </p>

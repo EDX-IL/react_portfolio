@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-In the project directory, you can run:
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Using React.js to create a portfolio website
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+For this challenge, I will utilize what I have learned in `Module 13: React` to develop the initial scaffolding of my portfolio site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./src/components/images/screenshot.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: [https://github.com/EDX-IL/react_portfolio](https://github.com/EDX-IL/react_portfolio)
+- Live Site URL: [https://edx-il.github.io/react_portfolio/](https://edx-il.github.io/react_portfolio/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I began by creating my local react environment. I then created a basic react-dom site with headings. This worked on my local machine. I then tested the deployment. This actually ate up most of my time on the project as i had no success deploying the app for 2 days. Even though it was working locally i couldn't get it to successfully deploy. I tried both my Mac and PC. Both Dane's method in his video, and the readme from GH-Pages. I even spent a good bit of time with a tutor from ASKBCS. Basically nothing worked. So i was about to give up and take the L. But i tried doing it the usual way i would do thing. I created the repo on github then cloned it down. Then created the react app within that. I also used the default react app/build to test it was working. And it did! So i them slowly added my components from my other attempts (note there won't be the number of commits i normally would have as those repos were deleted over the 6 or 7 attempts to get things working). This has however left me with little time to implement my projects page. I basically want to do a list of projects on the left of the screen below the header and then when click on the screen shot and link to the project appears on the right. Nothing too difficult or clever. But it's now an hour before the next class and so i'm going to submit this as is. And then update if and when i get a chance. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js
+- CSS custom properties
+- Javascript
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### What I learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- To be patient
+- Ask for help
+- Not to give up
+- Go back to first principles if all else fails
+- How to implement CSS in JSX
+- How to import images to be used on the webpage
 
-### Code Splitting
+To see how you can add code snippets, see below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```js
+const styles = {
+  projects : {
+    width:"100%",
+    height:"100%",
+    background: "#e4f0f5"
+  },
 
-### Analyzing the Bundle Size
+}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<div style={styles.projects}>
+```
 
-### Making a Progressive Web App
+```js
+import avatar from "../images/cool-prog.jpg"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Continued development
 
-### Deployment
+- I would work on the overall style/theme of the site
+- Project page/tab needs worked 
+- Layout of the pages to be improved eg home page centered image better fonts, contacts page with a form and nicer links fonts. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [CSS color picker ](https://www.w3schools.com/colors/colors_picker.asp) - This helped because VSCode didn't provide the usual colours in the coding window. 
+- [How to use CSS in React](https://css-tricks.com/different-ways-to-write-css-in-react/) - This article helped with the syntax for using CSS within the react js pages.
+- [ReactJS Documentation](https://reactjs.org/docs/getting-started.html) - Excellent reference guide for all things React. 
+
+
+
+## Author
+  Ian Logendra
+- GitHub - [https://github.com/EDX-IL](https://github.com/EDX-IL)
+
+## Acknowledgments
+
+Dane, Andrew, Beau, Noah, Johnathan (TA's) - for all their support and expertise.
