@@ -1,4 +1,5 @@
 import React from 'react';
+import cv from "../resources/fake CV.pdf"
 // import { Link, Route, Routes } from 'react-router-dom';
 
 
@@ -27,6 +28,9 @@ function Contact(props) {
       </p>
       <p>
       Email: <a href="edx@logendra.com"> Click Here to Send Email</a>
+      </p>
+      <p>
+      CV: <a href={cv} rel="noreferrer" target="_blank"> Click Here to View My CV</a>
       </p>
      
     </div>
